@@ -1,0 +1,140 @@
+
+/* Header  */
+
+ 
+  .container-logo {
+    grid-column: 1/3;
+    padding-left: 80px;
+  }
+  .container-logo .img-logo {
+    width: auto;
+    height: 100px;
+    padding: 0;
+  }
+  
+  .container-navigation {
+    grid-column: 5/14;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .container-navigation .navigation ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+
+  /* estilos de vision y mision */
+  .vm{
+    /* margin: 40px 30px; */
+    background: hsl(240, 23%, 81%);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsl(300, 67%, 77%), #8e9294);  
+    background: linear-gradient(to right, #f1b3d8, #c1dbf0); 
+    
+  }
+
+  .mision{
+      height: 100%;
+      display: flex;
+      padding-top: 100px;
+  }
+  .mision .mision__content {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .mision .mision__jpg {
+    width: 50%;
+  }
+  .mision .mision__jpg img {
+    width: 100%;
+    display: flex;
+  }
+  .mision h2 {
+      padding: 20px 30px;
+      margin-left: 50px;
+  }
+  .mision p{
+      max-width: 70%;
+      margin-left: 60px;
+  }
+  /*  */
+  .vision{
+      display: flex;
+      height: 100%;
+  }
+  .vision .vision__content {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .vision .vision__jpg {
+    width: 50%;
+  }
+  .vision .vision__jpg img {
+    width: 100%;
+    display: flex;
+  }
+
+  .vision h2{
+      padding: 20px 100px;
+  }
+  .vision p{
+      max-width: 70%;
+      margin-left: 40px;
+      padding-left: 40px;
+  }
+ /*  */
+  .gallery {
+    padding: 20px 0px
+}
+.gallery .gallery_content {
+    padding: 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}   
+.gallery_content_title h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.gallery .gallery_content .gallery_content_img {
+    width: 35%;
+    margin: 10px;
+}
+.gallery .gallery_content .gallery_content_img img {
+    width: 100%;
+    height: 100%;
+}
+.we {
+    padding:  0px 0px 20px;
+}
+.we_content {
+    display: flex;
+}
+.container-navigation .navigation ul li .list-item {
+  font-weight: 100;
+  text-decoration: none;
+}

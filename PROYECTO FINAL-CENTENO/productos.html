@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRODUCTOS</title>
+    
+    <link rel="icon" type="image/png" href="img/favicon.png" sizes="128x128">
+    <link rel="stylesheet" href="css/productos.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/ecommerce.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="container-logo">
+            <img src="img/logo.png" class="img-logo" alt="">
+        </div>
+        <div class="container-navigation">
+            <nav class="navigation">
+                <ul class="list">
+                    <li><a href="inicio.html" class="list-item">INICIO</a></li>
+                    <li><a href="nosotros.html" class="list-item">NOSOTROS</a></li>   
+                    <li><a href="servicios.html" class="list-item">SERVICIOS</a></li>
+                   <li><a href="productos.html" class="list-item">  PRODUCTOS</a></li>
+                   <li class="submenu">
+                    <p style="cursor: pointer" class="header_paragraph"><i style="font-size: 20px; color: #fff" class="fas fa-shopping-cart header_icon" class="fas fa-shopping-cart header_icon"></i></p>
+                    <div id="carrito">
+                            
+                            <table id="lista-carrito" class="u-full-width" border-collapse:collapse border="0" cellspacing="0">
+                                <thead>
+                                    <tr class="list-cartt" border="0" cellspacing="0">
+                                        <th border="0" cellspacing="0">Imagen</th>
+                                        <th border="0" cellspacing="0">Nombre</th>
+                                        <th border="0" cellspacing="0">Precio</th>
+                                        <th border="0" cellspacing="0">Cantidad</th>    
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <div style="display:flex; width: 100%; justify-content: center">
+                                <div class="pt-4">
+                                    <!-- <a style="background: #a81b8d; padding: 0.5rem 1rem; color: #ffffff" href="javascript:void(0)" target="_blank" class="button-comprar">Comprar</a>     -->
+                                </div>  
+                            </div>
+                           
+                    </div>
+            </li>
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+     <!-- ---------------------carrito------------------- -->
+     <section class="card-product pt-4 pb-4">
+        <div class="container-fluid">
+            <div class="container" id="lista-cursos">
+                <div class="row">
+                        <div class="col-12">
+                            <h2 class="title-card-product">Uniforme y objetos de Entrenamiento</h2>
+                        </div>
+                        <div class="col-4 pt-3">
+                            <div class="shadow-hover-card">
+                                <div>
+                                    <img src="img/camisetas.jpg" alt="" class="image-product">
+                                </div>
+                                <div class="pt-2">
+                                    <h2 class="title">Pelota</h2>
+                                    <p class="paragraph">De color rosado</p>
+                                </div>
+                                <div>
+                                    <p class="price pris">S/ 20.00</p>
+                                </div>
+                                <!-- <div class="d-flex justify-content-between">
+                                    <a href="javascript:void(0);" class="less button-up">-</a>
+                                    <p class="m-0 number button-up">1</p>
+                                    <a href="javascript:void(0);" class="more button-up">+</a>
+                                </div> -->
+                                <div class="button-content mt-3">
+                                    <a href="javascript:void(0);" class="button agregar-carrito" data-id="1">Agregar al carrito</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 pt-3">
+                            <div class="shadow-hover-card">
+                                <div>
+                                    <img src="img/platillos-1.jpg" alt="" class="image-product">
+                                </div>
+                                <div class="pt-2">
+                                    <h2 class="title">Platillos</h2>
+                                    <p class="paragraph">De diferentes tamaños</p>
+                                </div>
+                                <div>
+                                    <p class="price pris">S/ 15.00</p>
+                                </div>
+                                <!-- <div class="d-flex justify-content-between">
+                                    <a href="javascript:void(0);" class="less button-up">-</a>
+                                    <p class="m-0 number button-up">1</p>
+                                    <a href="javascript:void(0);" class="more button-up">+</a>
+                                </div> -->
+                                <div class="button-content mt-3">
+                                    <a href="javascript:void(0);" class="button agregar-carrito" data-id="2">Agregar al carrito</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 pt-3">
+                            <div class="shadow-hover-card">
+                                <div>
+                                    <img src="img/manillasjpg.jpg" alt="" class="image-product">
+                                </div>
+                                <div class="pt-2">
+                                    <h2 class="title">Manillas</h2>
+                                    <p class="paragraph">De color rojo y azul</p>
+                                </div>
+                                <div>
+                                    <p class="price pris">S/ 18.00</p>
+                                </div>
+                                <!-- <div class="d-flex justify-content-between">
+                                    <a href="javascript:void(0);" class="less button-up">-</a>
+                                    <p class="m-0 number button-up">1</p>
+                                    <a href="javascript:void(0);" class="more button-up">+</a>
+                                </div> -->
+                                <div class="button-content mt-3">
+                                    <a href="javascript:void(0);" class="button agregar-carrito" data-id="3">Agregar al carrito</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 pt-3">
+                            <div class="shadow-hover-card">
+                                <div>
+                                    <img src="img/conos-1.jpg" alt="" class="image-product">
+                                </div>
+                                <div class="pt-2">
+                                    <h2 class="title">Conos</h2>
+                                    <p class="paragraph">De color rojo y azul</p>
+                                </div>
+                                <div>
+                                    <p class="price pris">S/ 10.00</p>
+                                </div>
+                                <!-- <div class="d-flex justify-content-between">
+                                    <a href="javascript:void(0);" class="less button-up">-</a>
+                                    <p class="m-0 number button-up">1</p>
+                                    <a href="javascript:void(0);" class="more button-up">+</a>
+                                </div> -->
+                                <div class="button-content mt-3">
+                                    <a href="javascript:void(0);" class="button agregar-carrito" data-id="4">Agregar al carrito</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 pt-3">
+                            <div class="shadow-hover-card">
+                                <div>
+                                    <img src="img/pelota.jpg" alt="" class="image-product">
+                                </div>
+                                <div class="pt-2">
+                                    <h2 class="title">Pelota</h2>
+                                    <p class="paragraph">De la selección peruana</p>
+                                </div>
+                                <div>
+                                    <p class="price pris">S/ 100.00</p>
+                                </div>
+                                <!-- <div class="d-flex justify-content-between">
+                                    <a href="javascript:void(0);" class="less button-up">-</a>
+                                    <p class="m-0 number button-up">1</p>
+                                    <a href="javascript:void(0);" class="more button-up">+</a>
+                                </div> -->
+                                <div class="button-content mt-3">
+                                    <a href="javascript:void(0);" class="button agregar-carrito" data-id="5">Agregar al carrito</a>
+                                </div>
+                            </div>
+                        </div><div class="col-4 pt-3">
+                            <div class="shadow-hover-card">
+                                <div>
+                                    <img src="img/rodillera.jpg" alt="" class="image-product">
+                                </div>
+                                <div class="pt-2">
+                                    <h2 class="title">Rodillera</h2>
+                                    <p class="paragraph">Rodilleras para entrenamiento</p>
+                                </div>
+                                <div>
+                                    <p class="price pris">S/ 30.00</p>
+                                </div>
+                                <!-- <div class="d-flex justify-content-between">
+                                    <a href="javascript:void(0);" class="less button-up">-</a>
+                                    <p class="m-0 number button-up">1</p>
+                                    <a href="javascript:void(0);" class="more button-up">+</a>
+                                </div> -->
+                                <div class="button-content mt-3">
+                                    <a href="javascript:void(0);" class="button agregar-carrito" data-id="6">Agregar al carrito</a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+    <!-- ---------------------footer------------------- -->
+    <footer class="footer">
+        <div class="container">
+            <div class="container-fluid content">
+                <div class="footer_content">
+                    <div class="footer_item flex-column">
+                        <div class="logo-footer">
+                            <img style="width: auto; height: 120px;" src="img/logo.png" alt="">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptate ipsa</p>
+                        </div>
+                    </div>
+                    <div class="footer_item footer-line">
+                        <div class="hour-container">
+                            <div>
+                                <p class="hour-container-title">HORARIOS DE ATENCIÓN</p>
+                                <p class="hour-container-list">9:00 am - 18:00 pm</p>
+                                <p class="hour-container-day">Lunes a Viernes</p>
+                            </div>
+                            <div class="pt-4" style="margin-top: 10px;">
+                                <p class="hour-container-title">UBÍCANOS</p>
+                                <p class="hour-container-list">Calle 1 Mz. A Lt. 32 Urb. Pro Lima</p>
+                                <p class="hour-container-day">LOS OLIVOS</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_item redes-sociales footer-line">
+                        <div class="telefonica-container pt-4">
+                            <div id="redessociales">
+                                <a class="smedia facebook" href="https://www.facebook.com/josernitos"></a>
+                                <a class="smedia instagram" href="https://www.instagram.com/accounts/login?"></a>
+                                <a class="smedia youtube" href="https://www.youtube.com/watch?v=qkDJuyvof7Y"></a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/carrito.js"></script>
+    <script src="https://kit.fontawesome.com/4ca23cb350.js" crossorigin="anonymous"></script>
+</body>
+</html>
